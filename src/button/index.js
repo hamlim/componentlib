@@ -15,7 +15,7 @@ export default const Button = (clickHandler, filled, fill, color, ...props) => {
     color: this.props.color,
     border: 'solid 1px currentColor',
     borderRadius: '4px',
-    transition: 'color 250ms ease, background-color 250ms ease'
+    transition: 'color 250ms ease, background-color 250ms ease',
     ':hover': {
       backgroundColor: !this.props.filled ? this.props.color : BaseStyles.colors.white,
       color: !this.props.filled ? this.props.color : BaseStyles.colors.white,
